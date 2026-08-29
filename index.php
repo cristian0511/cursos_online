@@ -1,15 +1,15 @@
 <?php 
-// Integración modular de bloques reutilizables (Cabecera y Menú)
+// Integración modular de bloques reutilizables (Cabecera y Menú de navegación)
 include_once 'includes/header.php'; 
 include_once 'includes/navbar.php'; 
 ?>
 
-<!-- Sección de Encabezado Principal (Hero + Formulario de Inscripción) -->
-<header class="hero-section d-flex align-items-center">
+<!-- Encabezado Principal (Hero Banner con Imagen de Fondo y Mejoras UX/UI) -->
+<header class="hero-banner d-flex align-items-center">
     <div class="container">
         <div class="row align-items-center g-5">
             
-            <!-- Columna Izquierda: Presentación y Botones -->
+            <!-- Columna Izquierda: Información de Valor y Propuesta Visual -->
             <div class="col-lg-7 text-start">
                 <h1 class="hero-title mb-3">
                     Impulsa tu carrera con<br>cursos especializados
@@ -23,7 +23,7 @@ include_once 'includes/navbar.php';
                 </div>
             </div>
 
-            <!-- Columna Derecha: Tarjeta de Inscripción Rápida -->
+            <!-- Columna Derecha: Tarjeta de Formulario de Inscripción Rápida -->
             <div class="col-lg-5" id="inscripcion">
                 <div class="card-registration">
                     <h3 class="fw-bold fs-4 text-dark mb-1">Inscripción Rápida</h3>
@@ -50,7 +50,7 @@ include_once 'includes/navbar.php';
                             </select>
                         </div>
                         
-                        <button type="submit" class="btn btn-primary w-100 py-2.5 fw-bold rounded-3">
+                        <button type="submit" class="btn btn-primary w-100 py-2.5 fw-bold rounded-3 shadow-sm">
                             Registrarme Ahora
                         </button>
                     </form>
